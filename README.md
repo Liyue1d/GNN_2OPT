@@ -1,5 +1,9 @@
 # GNN_2OPT
 
+Computes approximate solutions in a graph to problems instances I = (s,d,M) where: s is the start node, d the end node and M the list of mandatory nodes to visit at least once.
+
+Requirements:SWIG (need to setup config files for numpy so C++ knows where to look for required files), numpy, networkx, scipy, tensorflow, cuda
+
 Installation instructions:
 
 1) Install Cuda
@@ -32,8 +36,6 @@ https://developer.nvidia.com/rdp/cudnn-download
 
 10) When calling this program from C++ (use c++11),  include in C++ source code the header "pyFunctions.h". Include in the makefile pyFunctions.cpp and the path to python3.5-config:
 example: g++ -std=c++11 gcnScenario.cpp pyFunctions.cpp -o gcnScenario $(/usr/bin/python3.5-config --ldflags)
-
-
 
 Three C++ functions can be used (example in gcnScenario.cpp):
 
