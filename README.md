@@ -2,6 +2,8 @@
 
 Computes approximate solutions in a graph to problems instances I = (s,d,M) where: s is the start node, d the end node and M the list of mandatory nodes to visit at least once.
 
+Uses a pre-trained graph neural network to first compute a suggested order of visit, then further optimizes the order of visit with the 2-OPT algorithm.
+
 Requirements:SWIG (need to setup config files for numpy so C++ knows where to look for required files), numpy, networkx, scipy, tensorflow, cuda
 
 Installation instructions:
@@ -41,7 +43,7 @@ Three C++ functions can be used (example in gcnScenario.cpp):
 
 - UpdateGraph: Needs to be run after the graph file GRAPH.xml (in XML format) is updated in python/input
 
-- TrainCaller: Trains the GCN on the current graph
+- TrainCaller: Trains the GCN on the current graph. Required before using the GCN
 
 - gcnApplicationCaller: Solves a problem (s,d,M): start/destination/mandatory and returns the result
 
