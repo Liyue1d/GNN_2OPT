@@ -1,0 +1,91 @@
+<GRAPH>
+	<VERTICES_NUMBER> 22 </VERTICES_NUMBER>
+	<VERTICES_MISSION>
+		<VERTEX_MISSION id="1" latitude="48.73317400" longitude="2.24901000" altitude="0.00" label="vertex_1"/>
+		<VERTEX_MISSION id="2" latitude="48.73324000" longitude="2.24780100" altitude="0.00" label="vertex_2"/>
+		<VERTEX_MISSION id="3" latitude="48.73354700" longitude="2.24825200" altitude="0.00" label="vertex_3"/>
+		<VERTEX_MISSION id="4" latitude="48.73392300" longitude="2.24846900" altitude="0.00" label="vertex_4"/>
+		<VERTEX_MISSION id="5" latitude="48.73409600" longitude="2.24858400" altitude="0.00" label="vertex_5"/>
+		<VERTEX_MISSION id="6" latitude="48.73410000" longitude="2.24896000" altitude="0.00" label="vertex_6"/>
+		<VERTEX_MISSION id="7" latitude="48.73404900" longitude="2.24980200" altitude="0.00" label="vertex_7"/>
+		<VERTEX_MISSION id="8" latitude="48.73454000" longitude="2.24988600" altitude="0.00" label="vertex_8"/>
+		<VERTEX_MISSION id="9" latitude="48.73455700" longitude="2.24909800" altitude="0.00" label="vertex_9"/>
+		<VERTEX_MISSION id="10" latitude="48.73373700" longitude="2.25119800" altitude="0.00" label="vertex_10"/>
+	</VERTICES_MISSION>
+	<EDGES_MISSION>
+		<EDGE_MISSION id ="1" src="1" dst="2" distance="12441.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="2" dst="1" distance="12441.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="2" dst="3" distance="9868.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="2" dst="4" distance="4671.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="2" dst="5" distance="6788.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="2" dst="9" distance="13572.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="3" dst="2" distance="9868.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="3" dst="5" distance="7868.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="3" dst="12" distance="6392.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="4" dst="2" distance="4671.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="4" dst="6" distance="12560.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="4" dst="7" distance="9918.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="5" dst="2" distance="6788.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="5" dst="3" distance="7868.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="5" dst="9" distance="10529.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="5" dst="10" distance="7060.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="5" dst="11" distance="11058.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="6" dst="4" distance="12560.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="6" dst="8" distance="8101.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="7" dst="4" distance="9918.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="7" dst="8" distance="8189.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="8" dst="6" distance="8101.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="8" dst="7" distance="8189.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="8" dst="9" distance="8850.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="8" dst="15" distance="1150.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="8" dst="16" distance="13204.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="9" dst="2" distance="13572.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="9" dst="5" distance="10529.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="9" dst="8" distance="8850.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="9" dst="14" distance="14890.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="10" dst="5" distance="7060.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="10" dst="13" distance="9856.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="10" dst="14" distance="3331.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="11" dst="5" distance="11058.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="11" dst="12" distance="2443.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="11" dst="13" distance="8393.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="12" dst="3" distance="6392.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="12" dst="11" distance="2443.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="12" dst="13" distance="6737.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="12" dst="17" distance="1236.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="13" dst="10" distance="9856.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="13" dst="11" distance="8393.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="13" dst="12" distance="6737.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="13" dst="14" distance="12901.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="13" dst="18" distance="2858.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="14" dst="9" distance="14890.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="14" dst="10" distance="3331.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="14" dst="13" distance="12901.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="14" dst="15" distance="12210.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="14" dst="19" distance="17211.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="14" dst="20" distance="13473.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="15" dst="8" distance="1150.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="15" dst="14" distance="12210.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="15" dst="16" distance="14296.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="15" dst="21" distance="12803.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="16" dst="8" distance="13204.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="16" dst="15" distance="14296.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="16" dst="22" distance="15769.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="17" dst="12" distance="1236.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="17" dst="18" distance="7637.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="18" dst="13" distance="2858.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="18" dst="17" distance="7637.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="18" dst="19" distance="3515.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="19" dst="14" distance="17211.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="19" dst="18" distance="3515.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="19" dst="20" distance="3772.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="20" dst="14" distance="13473.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="20" dst="19" distance="3772.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="20" dst="21" distance="13576.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="21" dst="15" distance="12803.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="21" dst="20" distance="13576.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="21" dst="22" distance="10768.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="22" dst="16" distance="15769.000000" time="0" fare="0" energy="0"/>
+		<EDGE_MISSION id ="1" src="22" dst="21" distance="10768.000000" time="0" fare="0" energy="0"/>
+	</EDGES_MISSION>
+</GRAPH>
